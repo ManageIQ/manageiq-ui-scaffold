@@ -1,0 +1,13 @@
+{
+  "name": "dashboard",
+  "version": "0.0.1",
+  "main": "dashboard.js",
+  "private": true,
+  "manageiq": {
+    "enabled": true,
+    "role": "admin"
+  },
+  "plugin": {
+    "provides": ["dashboardRouter", "dashboardSidebar"]
+  }
+}

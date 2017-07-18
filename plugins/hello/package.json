@@ -1,0 +1,13 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "main": "hello.js",
+  "private": true,
+  "manageiq": {
+    "enabled": true,
+    "role": "admin"
+  },
+  "plugin": {
+    "provides": ["helloRouter", "helloSidebar"]
+  }
+}

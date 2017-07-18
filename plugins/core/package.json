@@ -1,0 +1,27 @@
+{
+  "name": "core",
+  "version": "0.0.1",
+  "description": "ManageIQ UI Core",
+  "main": "server.js",
+  "manageiq": {
+    "enabled": true,
+    "role": "admin"
+  },
+  "plugin": {
+    "consumes": [
+      "helloRouter",
+      "helloSidebar",
+      "dashboardRouter",
+      "dashboardSidebar",
+      "servicesRouter",
+      "servicesSidebar",
+      "ordersRouter",
+      "ordersSidebar",
+      "catalogRouter",
+      "catalogSidebar"
+    ],
+    "provides": [
+      "server"
+    ]
+  }
+}
