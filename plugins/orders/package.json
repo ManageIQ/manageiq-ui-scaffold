@@ -1,0 +1,13 @@
+{
+  "name": "orders",
+  "version": "0.0.1",
+  "main": "orders.js",
+  "private": true,
+  "manageiq": {
+    "enabled": true,
+    "role": "user"
+  },
+  "plugin": {
+    "provides": ["ordersRouter", "ordersSidebar"]
+  }
+}

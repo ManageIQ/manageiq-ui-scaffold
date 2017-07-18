@@ -1,0 +1,35 @@
+{
+  "name": "manageiq-ui-scaffold",
+  "version": "0.1.0",
+  "description": "ManageIQ UI Scaffolding",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManageIQ/manageiq-ui-scaffold.git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "architect": "^0.1.11",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "handlebars": "^4.0.10",
+    "hbs": "^4.0.1",
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.1",
+    "pug": "^2.0.0-beta11",
+    "serve-favicon": "^2.4.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "architect",
+    "expressjs",
+    "dependency",
+    "injection"
+  ],
+  "license": "Apache-2.0"
+}
